@@ -1,0 +1,109 @@
+/* RMIT University Vietnam
+
+  Course: COSC2430 Web Programming
+
+  Semester: 2023A
+
+  Assessment: Assignment 3
+
+  Author: Nguyen Ngoc Minh Thu 
+
+  ID: s3941327
+
+  Acknowledgement: Acknowledge the resources that you use here. */
+
+/* Your initial code here */
+.wrapper {
+  margin: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled,
+input:disabled + label {
+  cursor: not-allowed;
+  color: #ccc;
+}
+
+/* PROFILE */
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#profile img {
+  border-radius: 50%;
+}
+
+#profile h1,
+#profile h2 {
+  margin: 10px 0;
+}
+
+
+/* MEAL PLAN OPTIONS */
+
+/* MEAL LIST HEADER */
+.wrapper #meal-list-header {
+  margin-bottom: 16px;
+}
+#meal-list-header h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#meal-list-header button {
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: white;
+  font-size: 16px;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* MEALS LIST */
+#meal-list {
+  width: 100%;
+}
+
+
+/* MEAL */
+.meal {
+  display: flex;
+  height: 100px;
+  margin: 10px;
+}
+.meal h4 {
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+
+/* The setting of background colors for meal cards goes here */
+
+/* MEAL INFORMATION */
+
+/* MEAL INFORMATION - TITLE */
+.meal-info h4 {
+  font-size: 20px;
+  min-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* MEAL INFORMATION - BADGE */
+
+/* FOOTER */
+footer {
+  margin: 30px 0;
+  text-align: center;
+}
